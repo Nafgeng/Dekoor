@@ -1,0 +1,105 @@
+html{
+    scroll-behavior: smooth;
+    /* height: 100%;
+    width: 100%; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+/* --------------------- Page Header --------------------- */
+
+.page-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.top-bar-buttton{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+    padding: 18px 0;
+    background: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+}
+
+.navbar-item{
+    margin: 10px 20px;
+}
+
+.toggle{
+    margin: 0 20px;
+    display: none;
+}
+
+.navbar-link{
+    color: black;
+    transition: var(--transition);
+}
+
+.navbar-link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.logo img{
+    width: 75px;
+    height: auto;
+    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    font-size: 25px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-button{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    color: var(--color-text);
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar-navigate {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.button{
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #E5F0B6;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.icon-frame{
+    background: #553B33;
+    color: #E5F1B5;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin: 0 0.5rem;
+}
+/* ---------------------  End Page Header --------------------- */
+
